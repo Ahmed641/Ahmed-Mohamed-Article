@@ -1,0 +1,85 @@
+
+/*
+
+colors
+
+#BFDBF7 :light B
+#E1E5F2: MEd G
+#FFFFFF:Light P
+#1F7A8 : med 
+#022B3A: dark
+
+
+*/
+
+
+
+
+
+body{
+    font-weight: normal;
+    font-size: 1em;
+    font-style: normal;
+    line-height:1.5;
+    background-color:#BFDBF7;
+   padding-left: 4em;
+   padding-right: 4em;
+
+}
+
+img{
+    max-width: 100%; 
+    margin: 1rem;
+}
+
+strong {
+    background: #1F7A8C; 
+    box-shadow: 0.200em 0.200em  #022B3A;
+    text-shadow: 0.025em 0.025em  #022B3A;
+}
+button{
+    border: none;
+}
+
+em{ 
+
+    font-style: unset
+
+
+}
+
+
+/****************************************
+*************GENERIC CLASSES *****************
+********************************************
+*/
+h1,h2, h3 {
+font-weight: 700;
+  line-height: 1;
+  margin: 1rem 0;
+  font-size: 2em
+}
+
+.site-header,.site-footer  {
+    background:#022B3A;
+    padding-top: 1em;
+    padding-bottom: 1em;
+        color:white;
+        font-size: 2em;
+        margin: .5em;
+        }
+
+
+.list{ 
+    text-shadow: 0.025em 0.025em  #022B3A;
+  }
+/***************************
+****************SPECIFIC CLASSES**************
+*****************************************/
+  .lheader {
+font-size: 1.5em;
+  }
+
+  .site-header {
+    text-align: center;
+}
